@@ -1,6 +1,7 @@
 package com.luis.util;
 
 public class MD5Utils {
+	
 	public static String getMD5(String source) {
 		return getMD5(source.getBytes());
 	}
