@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.luis.pattern.proxy;
 
 /**
@@ -12,3 +13,13 @@ public interface BaseService {
 
 	public void wcing();
 }
+=======
+package com.luis.pattern.proxy;
+
+public interface BaseService {
+
+	public void eating(String food);
+
+	public void wcing();
+}
+>>>>>>> 3a9071c1c2c9fd0f0692dc89a4e8bb12e1bd8d44

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.luis.pattern.proxy;
 
 /**
@@ -17,3 +18,18 @@ public class Person implements BaseService {
 	}
 
 }
+=======
+package com.luis.pattern.proxy;
+
+public class Person implements BaseService {
+
+	public void eating(String food) {
+		System.out.println("快吃" + food);
+	}
+
+	public void wcing() {
+		System.out.println("喜刷刷，喜刷刷");
+	}
+
+}
+>>>>>>> 3a9071c1c2c9fd0f0692dc89a4e8bb12e1bd8d44
